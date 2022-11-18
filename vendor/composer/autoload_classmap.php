@@ -6,6 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Notificacion\\Email' => $baseDir . '/src/app/Notificacion/Email.php',
+    'App\\PaymentGateway\\Paddle\\CustomerProfile' => $baseDir . '/src/app/PaymentGateway/Paddle/CustomerProfile.php',
+    'App\\PaymentGateway\\Paddle\\Transaction' => $baseDir . '/src/app/PaymentGateway/Paddle/Transaction.php',
+    'App\\PaymentGateway\\Stripe\\Transaction' => $baseDir . '/src/app/PaymentGateway/Stripe/Transaction.php',
     'Brick\\Math\\BigDecimal' => $vendorDir . '/brick/math/src/BigDecimal.php',
     'Brick\\Math\\BigInteger' => $vendorDir . '/brick/math/src/BigInteger.php',
     'Brick\\Math\\BigNumber' => $vendorDir . '/brick/math/src/BigNumber.php',

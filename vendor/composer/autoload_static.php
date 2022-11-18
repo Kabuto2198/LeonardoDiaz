@@ -50,11 +50,15 @@ class ComposerStaticInitd2c7d92ebc9c64d2a31afc943385fd98
         ),
         'App\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app',
+            0 => __DIR__ . '/../..' . '/src/app',
         ),
     );
 
     public static $classMap = array (
+        'App\\Notificacion\\Email' => __DIR__ . '/../..' . '/src/app/Notificacion/Email.php',
+        'App\\PaymentGateway\\Paddle\\CustomerProfile' => __DIR__ . '/../..' . '/src/app/PaymentGateway/Paddle/CustomerProfile.php',
+        'App\\PaymentGateway\\Paddle\\Transaction' => __DIR__ . '/../..' . '/src/app/PaymentGateway/Paddle/Transaction.php',
+        'App\\PaymentGateway\\Stripe\\Transaction' => __DIR__ . '/../..' . '/src/app/PaymentGateway/Stripe/Transaction.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',
         'Brick\\Math\\BigNumber' => __DIR__ . '/..' . '/brick/math/src/BigNumber.php',
