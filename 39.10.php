@@ -14,7 +14,7 @@ spl_autoload_register(function ($class){
     var_dump($path);
 });
 
-use App \PaymentGateway\Paddle\Transaction;
+use App\PaymentGateway\Paddle\Transaction;
 
 $paddleTransaction = new Transaction();
 

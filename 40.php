@@ -5,4 +5,10 @@ use App\PaymentGateway\Paddle\Transaction;
 
 $transaction = new Transaction();
 
-echo $transaction::STATUS_PAID;
+
+
+$transaction = new Transaction();
+
+$transaction->setStatus('ahsfbasbhfas');
+
+var_dump($transaction);
