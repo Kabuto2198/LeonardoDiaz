@@ -9,4 +9,4 @@ $transaction = new Transaction(25,'Transaction1 ');
 
 
 $transaction->process();
-var_dump($transaction->amount);
+//var_dump($transaction->amount);

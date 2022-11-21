@@ -1,5 +1,4 @@
 <?php
-
 declare(strict_types=1);
 
 namespace App\PaymentGateway\Paddle;
@@ -8,10 +7,9 @@ class Transaction
 {
 
 
-    public const STATUS_PAID = 'paid';
+   public const STATUS_PAID = 'paid';
     public const STATUS_PENDING = 'pending';
     public const STATUS_DECLINED = 'declined';
-
     private string $status;
 
     public function __construct()
@@ -24,13 +22,14 @@ class Transaction
         $this->status = $status;
         return $this;
     }
+}
 
 
 
 
 
 
-
+//41
     //private static int $count = 0;
 
    // public function __construct(
@@ -40,7 +39,7 @@ class Transaction
   //  {
    ////     self::$count++;
 
-    }
+ //   }
 
    //// public function getCount(): int
     {
@@ -55,4 +54,7 @@ class Transaction
    ////     echo 'Processing paddle transaction...';
   //  }
 //}
+
+
+//42
 
